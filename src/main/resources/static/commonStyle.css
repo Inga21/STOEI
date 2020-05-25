@@ -1,0 +1,550 @@
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+span {
+    color: rgba(117, 141, 144, 0.8);
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.headerlinewraper {
+    background-color: rgb(50, 50, 50);
+    height: 65px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerline {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    z-index: 100;
+}
+
+.header-center {
+    width: 380px;
+    margin: 0 auto;
+}
+
+ul {
+    position: relative;
+    margin: 0 auto;
+}
+
+li {
+
+    list-style-type: square;
+    display: inline;
+    margin: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #2eb398;
+    cursor: pointer;
+}
+
+
+.left-list {
+    top: 20px;
+    right: 140px;
+}
+
+.right-list {
+    bottom: 135px;
+    left: 190px;
+}
+
+.triangle {
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 51px 90px 0 90px;
+    border-color: rgb(50, 50, 50) transparent transparent transparent;
+}
+
+.logo {
+    position: relative;
+    margin: 0 auto;
+    width: 64px;
+    height: 55px;
+    bottom: 86px;
+}
+
+.login-field-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    margin: 50px auto;
+    box-shadow: 0px 5px 5px 0px rgba(209, 222, 222, 1);
+}
+
+.login-password-text {
+    display: flex;
+    justify-content: center;
+}
+
+.login-password-input {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(89, 177, 156, 0.41);
+}
+
+.login-password-input:hover {
+    background-color: rgba(89, 177, 156, 0.55);
+}
+
+.login-button-page {
+    margin-top: 20px;
+    width: 90px;
+}
+
+.hedgehog-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.hedgehog-logo {
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(50, 50, 50);
+
+}
+
+.footer-wrapper {
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    margin-top: 200px;
+}
+#cont{
+    min-height: 100%;
+}
+.first-row, .second-row, .third-row {
+    display: flex;
+    justify-content: center;
+}
+
+.first-row-services {
+    display: flex;
+    justify-content: center;
+
+}
+
+.second-row-services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hexagon {
+    width: 180px;
+    height: 206px;
+    margin: 10px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+
+.hex-layer-1 {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.hex-layer-2 {
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.images-full-wrapper {
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.images-wrapper {
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 100%;
+}
+
+.photo {
+    margin-right: 5px;
+}
+
+.hotel-wrapper {
+    margin-top: 100px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px 0px rgba(209, 222, 222, 1);
+}
+
+.services-wrapper {
+    margin: 50px auto 0;
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.one-service {
+    width: 380px;
+    margin-right: 30px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px 0px rgba(209, 222, 222, 1);
+}
+
+.services-span {
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.image-services {
+    padding-bottom: 15px;
+}
+
+.h3-services {
+    width: 350px;
+    text-align: left;
+}
+
+h3 {
+    color: rgba(59, 66, 65, 0.91);
+}
+
+.span-services {
+    font-size: 18px;
+}
+
+.hotel-contacts {
+    height: 210px;
+    width: 450px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 5px 0px rgba(209, 222, 222, 1);
+}
+
+.mts-contacts {
+    display: flex;
+    align-items: center;
+}
+
+.velcom-contacts {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.telephone-number {
+    font-size: 20px;
+    color: rgba(61, 61, 61, 0.9);
+}
+
+.info-contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.string-contacts {
+    display: flex;
+}
+
+.social-networks {
+    font-size: 18px;
+    color: rgba(61, 61, 61, 0.9);
+}
+
+.social-networks:hover {
+    color: #2eb398;
+    cursor: pointer;
+}
+
+.hotel-logo-named-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title-wrapper {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 65px;
+    float: right;
+    color: rgba(61, 61, 61, 0.9);
+}
+
+.hotel-info {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.users-image {
+    width: 50px;
+    height: 50px;
+}
+.image-author-comment-wrapper {
+    margin-bottom: 30px;
+    display: flex;
+}
+.comment-author-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.comment-full-wrapper {
+    margin-left: 40px;
+}
+
+.input-comment-name {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(89, 177, 156, 0.41);
+}
+
+.input-comment-name:hover, .input-comment-comment:hover {
+    background-color: rgba(89, 177, 156, 0.55);
+}
+
+.input-comment-comment {
+    width: 400px;
+    height: 70px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(89, 177, 156, 0.41);
+}
+
+.input-comment-name-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.table_blur {
+    background: #f5ffff;
+    border-collapse: collapse;
+    text-align: left;
+}
+.table_blur th {
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+    box-shadow: inset 0 1px 0 #999999, inset 0 -1px 0 #999999;
+    background: linear-gradient(#64b0b1, #117f7d);
+    color: white;
+    padding: 10px 15px;
+    position: relative;
+}
+.table_blur th:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 25%;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,.08));
+}
+.table_blur tr:nth-child(odd) {
+    background: #ebf3f9;
+}
+.table_blur th:first-child {
+    border-left: 1px solid #777777;
+    border-bottom:  1px solid #777777;
+    box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur th:last-child {
+    border-right: 1px solid #777777;
+    border-bottom:  1px solid #777777;
+    box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur td {
+    border: 1px solid #e3eef7;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.table_blur tbody:hover td {
+    color: transparent;
+    text-shadow: 0 0 3px #a09f9d;
+}
+.table_blur tbody:hover tr:hover td {
+    color: #444444;
+    text-shadow: none;
+}
+
+.table-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+ select{
+     background-color: rgba(102, 121, 123, 0.41);
+     border: none;
+ }
+
+ option {
+
+ }
+
+ option:hover {
+     background-color: #2eb398;
+ }
+
+.filtration-find-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.find-wrapper {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.find-input-ares {
+    width: 105px;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(89, 177, 156, 0.41);
+}
+
+.filtration-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-wrapper {
+    margin: 60px auto;
+    display: flex;
+    justify-content:center ;
+    width: 500px;
+    box-shadow: 0px 5px 5px 0px rgba(209, 222, 222, 1);
+}
+.add-wrapper1 {
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    box-shadow: 0px 5px 5px 0px rgba(209, 222, 222, 1);
+}
+
+.add-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.edit-wrapper {
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    box-shadow: 0px 5px 5px 0px rgba(209, 222, 222, 1);
+}
+
+.powered-wrapper {
+    display: flex;
+    align-items: center;
+}
+.margin-left-footer {
+    margin-left: 10px;
+}
+
+.footer-a {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #777777;
+    margin-top: 17px;
+}
+
+.block2 {
+    background: #fc0;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+    position: relative;
+    top: 40px;
+    left: -70px;
+}
+.block3 {
+    width: 1000px;
+    height: 100px;
+    background: black;
+    padding: 5px;
+    border: solid 1px black;
+}
+.footer {
+    height: 80px;
+    margin-top: -80px;
+}
+.ismy-invalid
+{
+    color: red;
+}
